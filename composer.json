@@ -4,7 +4,16 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+		"t4s/camelot-auth": "*"
+	},
+	"require-dev":{
+		"phpunit/phpunit":"3.7.*",
+		"way/phpunit-wrappers": "dev-master",
+		"way/laravel-test-helpers": "dev-master",
+		"way/generators": "dev-master",
+		"mockery/mockery": "dev-master",
+		"barryvdh/laravel-ide-helper": "1.*"
 	},
 	"autoload": {
 		"classmap": [

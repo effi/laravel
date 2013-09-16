@@ -55,9 +55,20 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'laravel_test',
+			'username'  => 'laravel_test',
+			'password'  => 'ggsggs',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+		
+		'mysql-remote' => array(
+			'driver'    => 'mysql',
+			'host'      => 'meldeplan.net',
+			'database'  => 'd0182f16',
+			'username'  => 'd0182f16',
+			'password'  => '7uJGzGN9xFgSAUXH',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

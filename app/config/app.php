@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://laravel:8888',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => '8Csf0iQBXX1A5xnoKcRaQnHPoBKIfRej',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -113,6 +113,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Leinbach\Generators\GeneratorsServiceProvider',
+		'T4s\CamelotAuth\CamelotAuthServiceProvider'
 
 	),
 
@@ -178,6 +180,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'Camelot' 		  => 'T4s\CamelotAuth\Facades\Camelot'
 
 	),
 
